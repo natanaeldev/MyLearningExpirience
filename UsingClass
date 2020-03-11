@@ -1,0 +1,40 @@
+using System;
+using System.Linq;
+using System.Xml.Linq;
+using Helloworld_with_mosh.Math;
+
+namespace Helloworld_with_mosh
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            var person = new Person();
+            var calculate = new calculator();
+
+            Console.WriteLine("Enter your first  name");
+            person.FirstName = Console.ReadLine();
+            Console.WriteLine("Enter your second name");
+            person.LastName = Console.ReadLine();
+
+            Console.WriteLine("Enter the actual year");
+            calculate.ActualYear = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter the year you were born");
+            calculate.BornYear = int.Parse(Console.ReadLine());
+            person.introduce();
+            calculate.Add();
+
+            Console.ReadLine();
+
+
+
+
+
+
+        }
+
+            
+    }
+
+   
+}
