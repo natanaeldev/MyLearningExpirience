@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helloworld_with_mosh", "Helloworld_with_mosh\Helloworld_with_mosh.csproj", "{EEC55A08-7080-4332-AB93-86CA5647808E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Math", "Math", "{76555FE2-7237-4F70-98C4-42777D521244}"
+	ProjectSection(SolutionItems) = preProject
+		Helloworld_with_mosh\calculator.cs = Helloworld_with_mosh\calculator.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EEC55A08-7080-4332-AB93-86CA5647808E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEC55A08-7080-4332-AB93-86CA5647808E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEC55A08-7080-4332-AB93-86CA5647808E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEC55A08-7080-4332-AB93-86CA5647808E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {357B79E1-5620-4E09-A7E4-F8ACF81DC2A0}
+	EndGlobalSection
+EndGlobal
