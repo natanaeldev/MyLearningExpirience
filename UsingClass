@@ -21,8 +21,8 @@ namespace Helloworld_with_mosh
             calculate.ActualYear = int.Parse(Console.ReadLine());
             Console.WriteLine("Enter the year you were born");
             calculate.BornYear = int.Parse(Console.ReadLine());
-            person.introduce();
-            calculate.Add();
+            person.introduce();// this just print the output of a full name 
+            calculate.Add();// this just make the operation of age
 
             Console.ReadLine();
 
